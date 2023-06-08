@@ -32,7 +32,7 @@ You can modify the gen_project.bat file to make it easier to use in another fold
 
 # Requirements
 
-Project uses Python 3.6+, and was bult using Python 3.10
+Project uses Python 3.6+, and was built using Python 3.10
 
 It is suggested you create a [Virtual Environment](https://docs.python.org/3/library/venv.html) for the project.
 
