@@ -28,6 +28,8 @@ python generate-project-starter.py ../Top_Level
 
 To generate a project with spaces in the name, wrape the project name in quotes.
 
+You can modify the gen_project.bat file to make it easier to use in another folder!
+
 # Requirements
 
 Project uses Python 3.6+, and was bult using Python 3.10
