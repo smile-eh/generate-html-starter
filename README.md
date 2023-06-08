@@ -1,6 +1,6 @@
 # Introduction
 
-Generate an HTML/JS/CSS project starter for the [50 Projects in 50 Days](https://50projects50days.com/) course from Traversy Media.
+Generate an HTML/JS/CSS [project starter](https://github.com/bradtraversy/50projects50days/tree/master/_project_starter_) for the [50 Projects in 50 Days](https://50projects50days.com/) course from Traversy Media.
 
 The program takes the name of the project folder, and optionally the folder location you would like to create the project, then outputs all the required files.
 
