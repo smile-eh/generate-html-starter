@@ -48,10 +48,10 @@ def make_directories(working_directory, project_name):
         os.makedirs(project_name)
     os.chdir(project_name)
 
-def make_files():
+def make_files(project_name):
     from templates import index_html, script_js, style_css
     i_f = open("index.html", 'w')
-    i_f.write(index_html)
+    i_f.write(index_html%(project_name))
     i_f.close()
 
     j_f = open("script.js", 'w')
@@ -73,7 +73,7 @@ def main():
     make_directories(working_dir, project_name)
 
     #make the project starter files
-    make_files()
+    make_files(project_name)
 
 if __name__ == "__main__":
     main()
